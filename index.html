@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Firmbee.com - Free Project Management Platform for remote teams">
+    <title>Pratibha Portfolio site</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body data-spy="scroll" data-target="#navbar">
+    <nav id="navbar" class="navbar navbar-expand-lg position-fixed top-0 w-100 py-5 line-bg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span class="highlighted">Pr</span>atibha <span class="highlighted">Ti</span>wari <span
+                    class="highlighted">/</span> Full 
+                    <span class="highlighted">Stack</span>
+                    Developer
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-item nav-link active px-4" href="#home">Home</a>
+                    <a class="nav-item nav-link px-4" href="#portfolio">Portfolio</a>
+                    <a class="nav-item nav-link px-4" href="#expertize">Work</a>
+                    <a class="nav-item nav-link px-4" href="#about">About</a>
+                    <a class="nav-item nav-link px-4" href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header id="home">
+        <div class="hero-img">
+            <div class="hero-shadow"></div>
+            <div class="hero-text">
+                <h1>
+                    <span class="highlighted">Wo</span>rks <br>
+                   <span class="highlighted"> Creat</span>ively
+                </h1>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <section id="portfolio">
+            <div class="portfolio bg-white py-5">
+                <div class="container">
+                    <div class="row justify-content-between align-items-center menu">
+                        <div class="col-4">
+                            <h1><span class="highlighted">My</span> portfolio</h1>
+                        </div>
+                        <div class="col-lg-6 text-center">
+                            <div id="filters" class="row">
+                                <div class="col">
+                                    <button class="btn-portfolio active" data-filter="*">All</button>
+                                </div>
+                                <div class="col">
+                                    <button class="btn-portfolio" data-filter=".c1">Web Development</button>
+                                </div>
+                                <div class="col">
+                                    <button class="btn-portfolio" data-filter=".c2">UI/UX Design</button>
+                                </div>
+                                <div class="col">
+                                    <button class="btn-portfolio" data-filter=".c3">Game Apps</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="underline-dark"></div>
+                    <div class="row grid gallery">
+                        <div class="col-sm-3 all c2">
+                            <a href="./portfolio.html#portfolio">
+                                <figure class="gallery__item">
+                                    <img src="img/portfolio/img-1.jpg" alt="Gallery image 1" class="gallery__img">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <div class="row">
+                                                <div class="col-7 offset-1">
+                                                    <h3>Book cover design</h3>
+                                                    <p>Brand</p>
+                                                </div>
+                                                <div class="col-3"><i class="bi bi-arrow-up"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col-sm-3 all c1">
+                            <a href="./portfolio.html#portfolio">
+                                <figure class="gallery__item">
+                                    <img src="img/portfolio/img-2.jpg" alt="Gallery image 2" class="gallery__img">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <div class="row">
+                                                <div class="col-7 offset-1">
+                                                    <h3>Tourist Places Web Site</h3>
+                                                    <p>Category</p>
+                                                </div>
+                                                <div class="col-3"><i class="bi bi-arrow-up"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col-sm-3 all c2">
+                            <a href="./portfolio.html#portfolio">
+                                <figure class="gallery__item">
+                                    <img src="img/portfolio/img-3.jpg" alt="Gallery image 3" class="gallery__img">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <div class="row">
+                                                <div class="col-7 offset-1">
+                                                    <h3>Project name</h3>
+                                                    <p>Category</p>
+                                                </div>
+                                                <div class="col-3"><i class="bi bi-arrow-up"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col-sm-3 all c3">
+                            <a href="./portfolio.html#portfolio">
+                                <figure class="gallery__item">
+                                    <img src="img/portfolio/img-4.jpg" alt="Gallery image 4" class="gallery__img">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <div class="row">
+                                                <div class="col-7 offset-1">
+                                                    <h3>Project name</h3>
+                                                    <p>Category</p>
+                                                </div>
+                                                <div class="col-3"><i class="bi bi-arrow-up"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col-sm-3 all c2">
+                            <a href="./portfolio.html#portfolio">
+                                <figure class="gallery__item">
+                                    <img src="img/portfolio/img-5.jpg" alt="Gallery image 5" class="gallery__img">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <div class="row">
+                                                <div class="col-7 offset-1">
+                                                    <h3>Project name</h3>
+                                                    <p>Category</p>
+                                                </div>
+                                                <div class="col-3"><i class="bi bi-arrow-up"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col-sm-3 all c2">
+                            <a href="./portfolio.html#portfolio">
+                                <figure class="gallery__item">
+                                    <img src="img/portfolio/img-6.jpg" alt="Gallery image 6" class="gallery__img">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <div class="row">
+                                                <div class="col-7 offset-1">
+                                                    <h3>Project name</h3>
+                                                    <p>Category</p>
+                                                </div>
+                                                <div class="col-3"><i class="bi bi-arrow-up"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col-sm-3 all c2">
+                            <a href="./portfolio.html#portfolio">
+                                <figure class="gallery__item">
+                                    <img src="img/portfolio/img-7.jpg" alt="Gallery image 7" class="gallery__img">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <div class="row">
+                                                <div class="col-7 offset-1">
+                                                    <h3>Project name</h3>
+                                                    <p>Category</p>
+                                                </div>
+                                                <div class="col-3"><i class="bi bi-arrow-up"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col-sm-3 all c3">
+                            <a href="./portfolio.html#portfolio">
+                                <figure class="gallery__item">
+                                    <img src="img/portfolio/img-8.jpg" alt="Gallery image 8" class="gallery__img">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <div class="row">
+                                                <div class="col-7 offset-1">
+                                                    <h3>Project name</h3>
+                                                    <p>Category</p>
+                                                </div>
+                                                <div class="col-3"><i class="bi bi-arrow-up"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col-sm-3 all c2">
+                            <a href="./portfolio.html#portfolio">
+                                <figure class="gallery__item">
+                                    <img src="img/portfolio/img-9.jpg" alt="Gallery image 9" class="gallery__img">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <div class="row">
+                                                <div class="col-7 offset-1">
+                                                    <h3>Project name</h3>
+                                                    <p>Category</p>
+                                                </div>
+                                                <div class="col-3"><i class="bi bi-arrow-up"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col-sm-3 all c3">
+                            <a href="./portfolio.html#portfolio">
+                                <figure class="gallery__item">
+                                    <img src="img/portfolio/img-10.jpg" alt="Gallery image 10" class="gallery__img">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <div class="row">
+                                                <div class="col-7 offset-1">
+                                                    <h3>Project name</h3>
+                                                    <p>Category</p>
+                                                </div>
+                                                <div class="col-3"><i class="bi bi-arrow-up"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col-sm-3 all c2">
+                            <a href="./portfolio.html#portfolio">
+                                <figure class="gallery__item">
+                                    <img src="img/portfolio/img-11.jpg" alt="Gallery image 11" class="gallery__img">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <div class="row">
+                                                <div class="col-7 offset-1">
+                                                    <h3>Project name</h3>
+                                                    <p>Category</p>
+                                                </div>
+                                                <div class="col-3"><i class="bi bi-arrow-up"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col-sm-3 all c3">
+                            <a href="./portfolio.html#portfolio">
+                                <figure class="gallery__item">
+                                    <img src="img/portfolio/img-12.jpg" alt="Gallery image 12" class="gallery__img">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <div class="row">
+                                                <div class="col-7 offset-1">
+                                                    <h3>Project name</h3>
+                                                    <p>Category</p>
+                                                </div>
+                                                <div class="col-3"><i class="bi bi-arrow-up"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col-sm-3 all c2">
+                            <a href="./portfolio.html#portfolio">
+                                <figure class="gallery__item">
+                                    <img src="img/portfolio/img-13.jpg" alt="Gallery image 13" class="gallery__img">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <div class="row">
+                                                <div class="col-7 offset-1">
+                                                    <h3>Project name</h3>
+                                                    <p>Category</p>
+                                                </div>
+                                                <div class="col-3"><i class="bi bi-arrow-up"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col-sm-3 all c2">
+                            <a href="./portfolio.html#portfolio">
+                                <figure class="gallery__item">
+                                    <img src="img/portfolio/img-14.jpg" alt="Gallery image 14" class="gallery__img">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <div class="row">
+                                                <div class="col-7 offset-1">
+                                                    <h3>Project name</h3>
+                                                    <p>Category</p>
+                                                </div>
+                                                <div class="col-3"><i class="bi bi-arrow-up"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </figure>
+                </a>
+            </div>
+            </div>
+            <div class="row justify-content-center mt-5">
+                <div class="col-3 text-center">
+                    <button id="load-more"><i class="bi bi-arrow-down display-4"></i>
+                        <p>Show more</p>
+                    </button>
+                </div>
+            </div>
+            </div>
+            </div>
+        </section>
+
+        <section id="expertize">
+            <div class="expertize">
+                <div class="container">
+                    <div class="row item" data-text="web-design">
+                        <div class="col-12 col-sm-4">
+                            <h1><span class="highlighted">Web</span> Development</h1>
+                        </div>
+                        <div class="col-8 col-sm-6">
+                            <p>
+                                Tourist Places Web Site.
+                                <span class="dots">...</span>
+                                <span class="more" style="display: none;">
+                                    A comprehensive web page showcasing popular tourist destinations around the world. Each destination includes detailed information on attractions, history, best times to visit, and local cuisine. High-quality images and travel tips are also ....
+                                </span>
+                            </p>
+                        </div>
+                        <div class="col-3 col-sm-2 text-center">
+                            <button class="plus" onclick="readMore('web-design')"><i class="bi bi-plus-lg"></i></button>
+                        </div>
+                    </div>
+                    <div class="underline-light"></div>
+                    <div class="row item" data-text="brand">
+                        <div class="col-12 col-sm-4">
+                            <h1><span class="highlighted">UI/UX </span>Design</h1>
+                        </div>
+                        <div class="col-8 col-sm-6">
+                            <p>
+                                Food Ordering App (Cloud Kitchen).
+                                <span class="dots">...</span>
+                                <span class="more" style="display: none;">
+                                    Developed a cloud-based food ordering application designed to streamline the ordering process for customers and improve kitchen efficiency. The app includes features such as real-time order tracking, menu customization, and payment integration.
+                                </span>
+                            </p>
+                        </div>
+                        <div class="col-3 col-sm-2 text-center">
+                            <button class="plus" onclick="readMore('brand')"><i class="bi bi-plus-lg"></i></button>
+                        </div>
+                    </div>
+                    <div class="underline-light"></div>
+                    <div class="row item" data-text="social-media">
+                        <div class="col-12 col-sm-4">
+                            <h1><span class="highlighted">Game </span>App</h1>
+                        </div>
+                        <div class="col-8 col-sm-6">
+                            <p>
+                                Number-Slider-Puzzle-Game-App.
+                                <span class="dots">...</span>
+                                <span class="more" style="display: none;">
+                                    Designed and developed a number slider puzzle game app for Onliy desktop based game.The app challenges users to rearrange numbers in a grid to achieve a specific sequence. It features multiple difficulty levels and a hint system to assist players.......
+                                </span>
+                            </p>
+                        </div>
+                        <div class="col-3 col-sm-2 text-center">
+                            <button class="plus" onclick="readMore('social-media')"><i
+                                    class="bi bi-plus-lg"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="about">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-12 col-md-8">
+                            <h1>
+                                <span class="highlighted">My</span> name <br> is Pratibha
+                            </h1>
+                            <p> A passionate Software Developer. With a strong background in full-stack development, I have been working on various projects that showcase my skills in JavaScript, React, Node.js, and Python. I am dedicated to continuous learning and improvement, always seeking new challenges to grow both personally and professionally.
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <img class="img-fluid" src="img/me.jpeg" alt="Team Work">
+                        </div>
+                        <div class="underline-dark"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-4">
+                            <h1>Contact</h1>
+                        </div>
+                        <div class="col">
+                            <p>
+                                Contact me via mail<br>
+                                <a href="mailto:example@example.com">pratibhatiwari4070@gmail.com</a>
+                            </p>
+                        </div>
+                        <div class="col">
+                            <p>
+                                My phone <br>
+                                <a href="tel:+32-504-444-123">+89 28 955 314</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contact-form col-12">
+                        <form action="mailto:example@example.com" method="post" class="needs-validation" novalidate>
+                            <div class="form-group mt-5">
+                                <label class="col-12">Full name</label>
+                                <input class="col-12" type="text" id="fname" placeholder="Full name" name="fname"
+                                    required XXXautofocusXXX>
+                                <div class="invalid-feedback">Please write a full name.</div>
+                            </div>
+                            <div class="form-group mt-5">
+                                <label class="col-12">E-mail</label>
+                                <input class="col-12" type="email" id="email" placeholder="E-mail" name="email" required
+                                    XXXautofocusXXX>
+                                <div class="invalid-feedback">Please write a correct e-mail.</div>
+                            </div>
+                            <div class="form-group mt-5">
+                                <label class="col-12">Message</label>
+                                <input class="col-12" type="text" id="message" placeholder="Message" name="message"
+                                    required XXXautofocusXXX>
+                                <div class="invalid-feedback">Please write a message.</div>
+                            </div>
+                            <div class="row justify-content-end">
+                                <div class="col-12 col-lg-3 mb-5 text-end">
+                                    <button type="submit" name="submit" class="main-button">Send message
+                                        <img src="img/icons/arrow-right.svg" alt="arrow-right"
+                                            style="width: 40px; margin-left: 12px;">
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="social-buttons">
+                            <a href="https://www.instagram.com/yourprofile" target="_blank" class="social-btn instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.facebook.com/yourprofile" target="_blank" class="social-btn facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.youtube.com/yourchannel" target="_blank" class="social-btn youtube">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="social-btn linkedin">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                        
+                        <!-- Include Font Awesome -->
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+                        
+                        <!-- CSS Styling -->
+                        <style>
+                            .social-buttons {
+                                display: flex;
+                                justify-content: center;
+                                gap: 20px; /* Space between buttons */
+                                margin-top: 20px;
+                            }
+                        
+                            .social-btn {
+                                display: inline-flex;
+                                justify-content: center;
+                                align-items: center;
+                                width: 50px;
+                                height: 50px;
+                                border-radius: 50%;
+                                font-size: 20px;
+                                color: white;
+                                text-decoration: none;
+                                transition: background-color 0.3s ease;
+                            }
+                            .social-btn.instagram {
+                                background-color: #cc0ba2;
+                            }
+                        
+                            .social-btn.facebook {
+                                background-color: #3b5998;
+                            }
+                        
+                            .social-btn.youtube {
+                                background-color: #ff0000;
+                            }
+                        
+                            .social-btn.linkedin {
+                                background-color: #0077b5;
+                            }
+                        
+                            .social-btn:hover {
+                                opacity: 0.8; /* Slightly fade on hover */
+                            }
+                        </style>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+    </main>
+                <footer class="bg-dark text-white text-center py-3">
+                    <div class="container">
+                      <p>&copy; 2024 My Portfolio. All Rights Reserved.</p>
+                    </div>
+                  </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- Isotope gallery -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <!-- or -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+    <!-- Custom JS codes -->
+    <script src="js/scroll.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/snippets.js"></script>
+
+    <!--
+    This template is licenced under Attribution 3.0 (CC BY 3.0 PL),
+    You are free to: Share and Adapt. You must give appropriate credit, you may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+    -->
+</body>
+
+</html>
